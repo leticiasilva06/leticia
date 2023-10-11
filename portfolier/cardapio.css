@@ -1,0 +1,54 @@
+.titulo{
+    font-family:Brush Script MT;
+    font-size:399%; 
+    color:#562404;
+    text-align: justify;
+    text-indent: 50px;
+    word-spacing: 10px;
+    text-align: center;
+} 
+
+th,td {
+    border:1px solid black;
+    border-radius:10px;
+    collapse: collapse;
+    padding:10px;
+    box-sizing: border-box;
+} 
+img{
+    float:left;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius:100%; 
+}
+
+body {
+    background-color:#bdc4c0;
+}
+tr,td,th {
+    color: white;
+    font-family: Rockwell;
+}
+
+th {
+    background-color: #6fbb90;
+}
+
+td {
+    background-color:#89c3a2b7;
+}
+
+.center{
+    text-align: center;
+}
+
+.tabela{
+    margin-right:auto;
+    margin-left: auto;
+    width: auto;
+}
+
+.alinhamento{
+    text-align: center;
+    font-family: Georgia black;
+}
