@@ -2,7 +2,7 @@ function calcularDoisNumeros(operacao){
     let num1 = Number(document.getElementById('num1').value)
     let num2 = Number(document.getElementById('num2').value)
 
-    let resposta
+    let resposta;
     
     switch(operacao){
         case "*": resposta = num1*num2
@@ -20,13 +20,15 @@ function calcularDoisNumeros(operacao){
     
 }
 
-function calcularTabuada(numero){
-    
-    tabuadaCompleta =""
-    for(let i=0; i<=10; i++){
-        tabuadaCompleta += numero + " * " + " - " + numero * i + "<br>"
-    }
+// tabuada
 
-    document.getElementById(tabuada).innerHTML = tabuadaCompleta
-    
+const tabuada = document.getElementById("tabuada");
+function mostrarTabuada(){
+    let numero = Number(document.getElementById("numero").value);
+
+    let resposta = "";
+    for (let i = 1; i<= 10; i++){
+        resposta += numero + "x" + i + "=" + numero * i + "<br>"; 
+    }
+    tabuada.innerHTML = resposta
 }
