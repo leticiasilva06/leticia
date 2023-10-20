@@ -1,0 +1,38 @@
+.elemento {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid #2499c7;
+    padding: 50px;
+    margin: 20px;
+    outline-style: double;
+    outline-color: #2499c7;
+    outline-width: thick;
+    text-align: center;
+  }
+
+.elemento2 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid #2499c7;
+    padding: 50px;
+    margin: 20px;
+    outline-style:  double;
+    text-align: center;
+  }
+
+.elemento3 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid #2499c7;
+    padding: 50px;
+    margin: 20px;
+    outline-style:  double;
+    text-align: center;
+  }
+
+.corpo {
+    background-color: #cdffff;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+}

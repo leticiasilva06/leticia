@@ -12,30 +12,49 @@
         <script src="calcular.js"> </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     </head>
-    <body>
-        <h1>Calculadora</h1>
+    <body class="corpo">
 
-        <input type="text" id="num1">
-        <input type="text" id="num2"> </body> </br>
+        <div class="elemento">
+            <h1>Calculadora</h1>
 
-        <h2>
-            <button onclick="calcularDoisNumeros('*')">*</button>
-            <button onclick="calcularDoisNumeros('/')">/</button>
-            <button onclick="calcularDoisNumeros('+')">+</button>
-            <button onclick="calcularDoisNumeros('-')">-</button>
-        </h2>
+            <input type="text" id="num1">
+            <input type="text" id="num2"> </br>
+
+
+
+            <h2>
+                <button onclick="calcularDoisNumeros('*')">*</button>
+                <button onclick="calcularDoisNumeros('/')">/</button>
+                <button onclick="calcularDoisNumeros('+')">+</button>
+                <button onclick="calcularDoisNumeros('-')">-</button>
+            </h2>
 
        
 
-        <p id="resultado">
-        </p>
+            <p id="resultado">
+            </p>
+        </div>
 
-        <h1>Tábuadas </h1>
+        <div class="elemento2">
 
-         <input type="text" id="numero">
-         <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
-         <p id="tabuada"></p>
-         <script src="calcular.js"></script>
+            <h1>Tábuadas </h1>
+
+            <input type="text" id="numero">
+            <button onclick="mostrarTabuada()"> Mostrar Tabuada </button>
+            <p id="tabuada"></p>
+            <script src="calcular.js"></script>
+
+        </div>
+
+        <div class="elemento3">
+
+            <h1>Lista de alunos</h1>
+
+            <button onclick="listaAlunos()">Alunos</button>
+            <p id="alunos"></p>
+        </div>
+
+
 
      </body>
 </html>
